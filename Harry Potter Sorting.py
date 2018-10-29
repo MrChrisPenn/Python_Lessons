@@ -35,7 +35,12 @@ while Current_Student < len(Students_List) :
   elif House == "Slytherin":
     Slytherin_Students.append(Students_List[Current_Student])
     print(Slytherin_Students)
+
+  else:
+    print("You have chosen a house that doesn't currently exist")
   
+
+
   #add one to current position in student list
   Current_Student = Current_Student + 1
 
